@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-web/static/css/main.e64ee5d6.css",
+    "main.js": "/Portfolio-web/static/js/main.3105b487.js",
+    "static/media/Quiz1.png": "/Portfolio-web/static/media/Quiz1.8635a9606b0f1e9b0733.png",
+    "static/media/Library1.png": "/Portfolio-web/static/media/Library1.82451ff9a03e0019e761.png",
+    "static/media/Library3.png": "/Portfolio-web/static/media/Library3.17477d5198f79c8a0f7b.png",
+    "static/media/Quiz3.png": "/Portfolio-web/static/media/Quiz3.1f6c2eef7939159106aa.png",
+    "static/media/Library2.png": "/Portfolio-web/static/media/Library2.c4174c4a8af28c57e9cb.png",
+    "static/media/Game1.png": "/Portfolio-web/static/media/Game1.18de1edfd0e60ef73469.png",
+    "static/media/Quiz2.png": "/Portfolio-web/static/media/Quiz2.9eca83232bcb1aefe3ce.png",
+    "static/media/Game3.png": "/Portfolio-web/static/media/Game3.abfee23bff6d20507669.png",
+    "static/media/Game2.png": "/Portfolio-web/static/media/Game2.843d5861cb1623d56299.png",
+    "static/media/myPic.JPG": "/Portfolio-web/static/media/myPic.6be7d903bd85fa0d0964.JPG",
+    "static/media/IuniiaPakhomova-Resume.pdf": "/Portfolio-web/static/media/IuniiaPakhomova-Resume.681f07dbfa446ce91f5e.pdf",
+    "static/media/linkedin.png": "/Portfolio-web/static/media/linkedin.ba884e1f9ad4362348c1.png",
+    "static/media/github.svg": "/Portfolio-web/static/media/github.416e8876708c567f0bef38fa7655a671.svg",
+    "index.html": "/Portfolio-web/index.html",
+    "main.e64ee5d6.css.map": "/Portfolio-web/static/css/main.e64ee5d6.css.map",
+    "main.3105b487.js.map": "/Portfolio-web/static/js/main.3105b487.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e64ee5d6.css",
+    "static/js/main.3105b487.js"
+  ]
+}
