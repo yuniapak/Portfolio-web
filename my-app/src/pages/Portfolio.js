@@ -44,7 +44,7 @@ const Portfolio = () => {
               <img src={Quiz3} className="sliderimg" alt="carouselPic" />
             </Carousel>
             <div className="about-lang-0">
-              {showP && card == 'about-lang-0' ? (
+              {showP && card  'about-lang-0' ? (
                 <p>
                   Built using PERN. Flash card study app, with easy
                   authentication system and user design. Allows you to create
@@ -73,7 +73,7 @@ const Portfolio = () => {
               <img src={Quiz2} className="sliderimg" alt="quiz2" />
             </Carousel>
             <div className="about-lang-1">
-              {showP && card == 'about-lang-1' ? (
+              {showP && card === 'about-lang-1' ? (
                 <p>
                   {' '}
                   Built using MERN. Gardening App that allows you to find any
@@ -108,7 +108,7 @@ const Portfolio = () => {
               </Carousel>
             </div>
             <div className="about-lang-2">
-              {showP && card == 'about-lang-2' ? (
+              {showP && card === 'about-lang-2' ? (
                 <p>
                   Built with vanilla JavaScript, HTML and CSS. Game with
                   animated character named 'Pea', that moves using arrow
@@ -140,7 +140,7 @@ const Portfolio = () => {
               </Carousel>
             </div>
             <div className="about-lang-3">
-              {showP && card == 'about-lang-3' ? (
+              {showP && card === 'about-lang-3' ? (
                 <p>
                   Built using PERN. Library social media app, where you can find
                   your friends, follow them, see your friends libraries and

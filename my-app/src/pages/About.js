@@ -18,14 +18,14 @@ const About = () => {
   const [style, setStyle] = useState('about-lang')
   const [regular, setRegular] = useState('about-lang-active')
   const switchLang = () => {
-    if (lang == 'front') {
+    if (lang === 'front') {
       setLang('back')
       setStyle('about-lang-active')
       setRegular('about-lang')
     }
   }
   const switchBack = () => {
-    if (lang == 'back') {
+    if (lang === 'back') {
       setLang('front')
       setStyle('about-lang')
       setRegular('about-lang-active')
@@ -45,7 +45,7 @@ const About = () => {
             <h3>BackEnd</h3>
           </div>
 
-          {lang == 'front' ? (
+          {lang === 'front' ? (
             <div>
               <img src={REACT} alt="REACT" />
               <img src={JS} alt="JS" />
