@@ -10,6 +10,7 @@ import PYTHON from '../assets/icons/Python.png'
 import JS from '../assets/icons/vanillaJS.png'
 import VUE from '../assets/icons/VUE.png'
 import PSQL from '../assets/icons/postgres.png'
+import Resume from '../assets/IuniiaPakhomova-Resume.pdf'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 const About = () => {
@@ -68,7 +69,7 @@ const About = () => {
           goals, and reaching a destination. In team settings, I bring passion,
           vision, motivation, and a strong sense of organization and structure.{' '}
         </p>
-        <Link to="#" target="_blank" downoload>
+        <Link to={Resume} target="_blank" downoload>
           My Resume
         </Link>
         <h4>feel free to email me</h4>

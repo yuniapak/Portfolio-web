@@ -2,6 +2,15 @@ import Nav from '../components/Nav'
 import { useState, useEffect } from 'react'
 import Quiz1 from '../assets/Quiz1.png'
 import Quiz2 from '../assets/Quiz2.png'
+import Quiz3 from '../assets/Quiz3.png'
+import Game1 from '../assets/Game1.png'
+import Game2 from '../assets/Game2.png'
+import Game3 from '../assets/Game3.png'
+import Library2 from '../assets/Library1.png'
+import Library1 from '../assets/Library2.png'
+import Library3 from '../assets/Library3.png'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Carousel } from 'react-responsive-carousel'
 
 const Portfolio = () => {
   let imagesQuiz = [Quiz1, Quiz2]
@@ -13,16 +22,6 @@ const Portfolio = () => {
     setCard(e.target.className)
     console.log(e.target.className)
   }
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     if (index === imagesQuiz.length - 1) {
-  //       setIndex(0)
-  //     } else {
-  //       setIndex(1)
-  //     }
-  //   }, 8000)
-  //   return () => clearInterval(index)
-  // }, [])
 
   return (
     <div className="portfolio">
@@ -31,13 +30,21 @@ const Portfolio = () => {
       </div>
       <div className="projects">
         <div className="project-card">
-          <div className="about-lang" onClick={showInfo}>
+          <div className="about-lang-0" onClick={showInfo}>
             <h2>QuizCards</h2>
-            <div className="about-lang">
-              <img src={imagesQuiz[index]} alt="image" />
-            </div>
-            <div>
-              {showP && card == 'about-lang' ? (
+            <Carousel
+              showThumbs={false}
+              showStatus={false}
+              autoPlay
+              intervall="4000"
+              transitionTime="2000"
+            >
+              <img src={Quiz1} className="sliderimg" />
+              <img src={Quiz2} className="sliderimg" />
+              <img src={Quiz3} className="sliderimg" />
+            </Carousel>
+            <div className="about-lang-0">
+              {showP && card == 'about-lang-0' ? (
                 <p>
                   Built using PERN. Flash card study app, with easy
                   authentication system and user design. Allows you to create
@@ -47,15 +54,24 @@ const Portfolio = () => {
                 </p>
               ) : null}
               <a href="https://github.com/yuniapak/quizcards">GitHub</a>
-              <a href="https://quizardsapp.herokuapp.com/">Game</a>
+              <a href="https://quizardsapp.herokuapp.com/">Web</a>
             </div>
           </div>
         </div>
         <div>&nbsp;</div>
         <div className="project-card">
-          <div key="project-card-2" onClick={showInfo}>
+          <div className="about-lang-1" onClick={showInfo}>
             <h2>My Garden</h2>
-            <img src={imagesQuiz[index]} alt="image" />
+            <Carousel
+              showThumbs={false}
+              showStatus={false}
+              autoPlay={true}
+              intervall="4000"
+              transitionTime="2000"
+            >
+              <img src={Quiz1} className="sliderimg" />
+              <img src={Quiz2} className="sliderimg" />
+            </Carousel>
             <div className="about-lang-1">
               {showP && card == 'about-lang-1' ? (
                 <p>
@@ -70,15 +86,26 @@ const Portfolio = () => {
                 </p>
               ) : null}
               <a href="https://github.com/yuniapak/Your-Garden">GitHub</a>
-              <a href="#">Game</a>
+              <a href="#">Web</a>
+              <div>&nbsp;</div>
             </div>
           </div>
         </div>
         <div className="project-card">
-          <div key="project-card-3" onClick={showInfo}>
+          <div className="project-card-3" onClick={showInfo}>
             <h2>Maze Game: 'Sweet pea'</h2>
             <div className="about-lang-2">
-              <img src={imagesQuiz[index]} alt="image" />
+              <Carousel
+                showThumbs={false}
+                showStatus={false}
+                autoPlay
+                intervall="4000"
+                transitionTime="2000"
+              >
+                <img src={Game1} className="sliderimg" />
+                <img src={Game2} className="sliderimg" />
+                <img src={Game3} className="sliderimg" />
+              </Carousel>
             </div>
             <div className="about-lang-2">
               {showP && card == 'about-lang-2' ? (
@@ -97,23 +124,38 @@ const Portfolio = () => {
         </div>
         <div>&nbsp;</div>
         <div className="project-card">
-          <div key="project-card-4" onClick={showInfo}>
-            <h2>Maze Game: 'Sweet pea'</h2>
+          <div className="project-card-4" onClick={showInfo}>
+            <h2>Your Library</h2>
             <div className="about-lang-3">
-              <img src={imagesQuiz[index]} alt="image" />
+              <Carousel
+                showThumbs={false}
+                showStatus={false}
+                autoPlay
+                intervall="4000"
+                transitionTime="2000"
+              >
+                <img src={Library1} className="sliderimg" />
+                <img src={Library2} className="sliderimg" />
+                <img src={Library3} className="sliderimg" />
+              </Carousel>
             </div>
             <div className="about-lang-3">
               {showP && card == 'about-lang-3' ? (
                 <p>
-                  Built with vanilla JavaScript, HTML and CSS. Game with
-                  animated character named 'Pea', that moves using arrow
-                  buttons, has 3 levels and live bar. To win a game you have to
-                  move through Maze and don't hit the wall, each hit will take
-                  one live away.
+                  Built using PERN. Library social media app, where you can find
+                  your friends, follow them, see your friends libraries and
+                  reviews, search for any book, built using third-party API
+                  'GoogleBooks', create and add them to the libraries, using
+                  full CRUD operations on review you can rate books, includes
+                  simple user settings to change password and update user
+                  information like profile picture and username. You can try my
+                  app by login as email: user@test.com password: user1234
                 </p>
               ) : null}
-              <a href="https://github.com/yuniapak/Maze">GitHub</a>
-              <a href="https://devilish-plants.surge.sh/index.html">Game</a>
+              <a href="https://github.com/yuniapak/My_Library">GitHub</a>
+              <a href="https://pocketlibrary.herokuapp.com/search/book/fvlHAgAAQBAJ">
+                Web
+              </a>
             </div>
           </div>
         </div>
