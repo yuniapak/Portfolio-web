@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yuniapak.github.io/Portfolio-web",
+  "homepage": "https://yuniapak.github.io/Portfolio-web/my-app",
   "dependencies": {
     "@formspree/react": "^2.4.0",
     "@testing-library/jest-dom": "^5.16.4",
