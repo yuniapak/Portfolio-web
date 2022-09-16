@@ -1,5 +1,5 @@
 import Nav from '../components/Nav'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Quiz1 from '../assets/Quiz1.png'
 import Quiz2 from '../assets/Quiz2.png'
 import Quiz3 from '../assets/Quiz3.png'
@@ -13,8 +13,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 
 const Portfolio = () => {
-  let imagesQuiz = [Quiz1, Quiz2]
-  const [index, setIndex] = useState(0)
   const [showP, setShowP] = useState(false)
   const [card, setCard] = useState('')
   const showInfo = (e) => {
@@ -86,7 +84,7 @@ const Portfolio = () => {
                 </p>
               ) : null}
               <a href="https://github.com/yuniapak/Your-Garden">GitHub</a>
-              <a href="#">Web</a>
+              <a href="https://github.com/yuniapak/Your-Garden">Web</a>
               <div>&nbsp;</div>
             </div>
           </div>
