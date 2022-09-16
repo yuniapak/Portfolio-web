@@ -44,7 +44,7 @@ const Portfolio = () => {
               <img src={Quiz3} className="sliderimg" alt="carouselPic" />
             </Carousel>
             <div className="about-lang-0">
-              {showP && card  'about-lang-0' ? (
+              {showP && card === 'about-lang-0' ? (
                 <p>
                   Built using PERN. Flash card study app, with easy
                   authentication system and user design. Allows you to create
