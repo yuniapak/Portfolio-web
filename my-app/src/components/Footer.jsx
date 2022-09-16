@@ -4,11 +4,11 @@ const Footer =() =>{
     return (
         <div className='footer'>
             <a href='https://www.linkedin.com/in/iuniia-pakhomova/'>
-                <img src='../assets/linkedin.png' alt='linkedin'/></a>
-            <a href='https://github.com/yuniapak' alt='github'>
-                <img src='../assets/github.svg'/>
+                <img src={Linkedin} alt='linkedin'/></a>
+            <a href={Git} alt='github'>
+                <img src='../assets/github.svg' alt='git'/>
             </a>
-            <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p>Icons by <a target="_blank" href="https://icons8.com" rel="noopener noreferrer">Icons8</a></p>
         </div>
     )
 }
