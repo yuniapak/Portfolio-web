@@ -39,9 +39,9 @@ const Portfolio = () => {
               intervall="4000"
               transitionTime="2000"
             >
-              <img src={Quiz1} className="sliderimg" />
-              <img src={Quiz2} className="sliderimg" />
-              <img src={Quiz3} className="sliderimg" />
+              <img src={Quiz1} className="sliderimg" alt="carouselPic" />
+              <img src={Quiz2} className="sliderimg" alt="carouselPic" />
+              <img src={Quiz3} className="sliderimg" alt="carouselPic" />
             </Carousel>
             <div className="about-lang-0">
               {showP && card == 'about-lang-0' ? (
@@ -69,8 +69,8 @@ const Portfolio = () => {
               intervall="4000"
               transitionTime="2000"
             >
-              <img src={Quiz1} className="sliderimg" />
-              <img src={Quiz2} className="sliderimg" />
+              <img src={Quiz1} className="sliderimg" alt="quiz1" />
+              <img src={Quiz2} className="sliderimg" alt="quiz2" />
             </Carousel>
             <div className="about-lang-1">
               {showP && card == 'about-lang-1' ? (
@@ -102,9 +102,9 @@ const Portfolio = () => {
                 intervall="4000"
                 transitionTime="2000"
               >
-                <img src={Game1} className="sliderimg" />
-                <img src={Game2} className="sliderimg" />
-                <img src={Game3} className="sliderimg" />
+                <img src={Game1} className="sliderimg" alt="carouselPic" />
+                <img src={Game2} className="sliderimg" alt="carouselPic" />
+                <img src={Game3} className="sliderimg" alt="carouselPic" />
               </Carousel>
             </div>
             <div className="about-lang-2">
@@ -134,9 +134,9 @@ const Portfolio = () => {
                 intervall="4000"
                 transitionTime="2000"
               >
-                <img src={Library1} className="sliderimg" />
-                <img src={Library2} className="sliderimg" />
-                <img src={Library3} className="sliderimg" />
+                <img src={Library1} className="sliderimg" alt="carouselPic" />
+                <img src={Library2} className="sliderimg" alt="carouselPic" />
+                <img src={Library3} className="sliderimg" alt="carouselPic" />
               </Carousel>
             </div>
             <div className="about-lang-3">

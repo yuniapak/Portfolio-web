@@ -35,7 +35,7 @@ const About = () => {
     <div>
       <Nav />
       <div className="about">
-        <img src={myPicture} />
+        <img src={myPicture} alt="IuniiaPakhomova" />
         <h2>Hello, my name is Iuniia Pakhomova</h2>
         <div className="about-icons">
           <div onClick={switchBack} className={regular}>
@@ -47,19 +47,19 @@ const About = () => {
 
           {lang == 'front' ? (
             <div>
-              <img src={REACT} />
-              <img src={JS} />
-              <img src={HTML} />
-              <img src={CSS} />
-              <img src={PYTHON} />
-              <img src={VUE} />
+              <img src={REACT} alt="REACT" />
+              <img src={JS} alt="JS" />
+              <img src={HTML} alt="HTML" />
+              <img src={CSS} alt="CSS" />
+              <img src={PYTHON} alt="PYTHON" />
+              <img src={VUE} alt="VUE" />
             </div>
           ) : (
             <div>
-              <img src={NODE} />
-              <img src={MONGO} />
-              <img src={PSQL} />
-              <img src={DJANGO} />
+              <img src={NODE} alt="NODE" />
+              <img src={MONGO} alt="MongoDB" />
+              <img src={PSQL} alt="Postgresql" />
+              <img src={DJANGO} alt="Django" />
             </div>
           )}
         </div>
